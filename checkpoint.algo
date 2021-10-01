@@ -2,7 +2,7 @@ ALGORITHM sentence
 VAR
     s:=STRING;
     c := CHAR;
-    i,j,k := INTEGER;
+    l,v,w := INTEGER;
 BEGIN
 l:= 0;
 w:= 1;
