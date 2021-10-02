@@ -13,7 +13,7 @@ s:=;
         read (c);
         s:= s + a;
         l:= l + 1;
-        IF (a := ' ') THEN
+        IF (a = ' ') THEN
             w := w+1;
             ELSE_IF ( a in [A,E,U,I,O,Y,a,e,y,i,u,o]) 
             v:= v+1;
