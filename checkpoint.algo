@@ -1,16 +1,16 @@
 ALGORITHM sentence
 VAR
     s:=STRING;
-    c := CHAR;
+    a := CHAR;
     l,v,w := INTEGER;
 BEGIN
 l:= 0;
 w:= 1;
 v:= 0;
-s:=;
+s:="";
     REPEAT
         write ('entrer votre caractère');
-        read (c);
+        read (a);
         s:= s + a;
         l:= l + 1;
         IF (a = ' ') THEN
